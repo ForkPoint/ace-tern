@@ -1,5 +1,19 @@
 {
-    "name": "ace-tern",
-    "version": "1.0.0",
-    "description": "Tern for Ace"
+  "name": "ace-tern",
+  "version": "1.0.0",
+  "description": "Tern for Ace",
+  "main": "src-noconflict/ext-tern",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForkPoint/ace-tern.git"
+  },
+  "author": "Simeon Kirilov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ForkPoint/ace-tern/issues"
+  },
+  "homepage": "https://github.com/ForkPoint/ace-tern#readme"
 }
