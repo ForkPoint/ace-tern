@@ -1,0 +1,34 @@
+{
+  "extends": ["airbnb-base"],
+    "rules": {
+        "indent": ["error", 4],
+        "func-names": ["error", "never"],
+        "max-len": ["error", { "code": 250}],
+        "no-param-reassign": ["error", { "props": false }],
+        "no-alert": "off", // Turned off until we add in the content scipt a way to show custom modals
+        "no-restricted-globals": "off", // Turned off until we add in the content scipt a way to show custom modals
+        "default-case": "off",
+        "no-plusplus": "off",
+        "global-require": "off",
+        "radix": "off",
+        "prefer-spread": "off",
+        "no-underscore-dangle": "off",
+        "no-extend-native": "off",
+        "import/no-dynamic-require": "off",
+        "linebreak-style": "off",
+        "no-use-before-define": ["error", { "functions": false, "classes": true, "variables": true }],
+        "prefer-destructuring": ["error", {
+            "array": false,
+            "object": true
+        }]
+    },
+    "env": {
+        "webextensions": true,
+        "browser": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "globals": {
+        "angular": true
+    }
+}
